@@ -1,0 +1,58 @@
+# Ignore all JSON files
+*.json
+
+# CSV, Excel, and tabular data
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Text / logs / raw data
+*.txt
+*.log
+*.dat
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Serialized / binary data
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# Numpy / ML data
+*.npy
+*.npz
+
+# Parquet / big data
+*.parquet
+*.feather
+
+# YAML / config data (optional, remove if needed)
+*.yaml
+*.yml
+
+# XML
+*.xml
+
+# Ignore data folders
+data/
+datasets/
+uploads/
+downloads/
+
+# Ignore env files (IMPORTANT)
+.env
+.env.*
+
+# Ignore temp/cache
+__pycache__/
+*.pyc
+*.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
